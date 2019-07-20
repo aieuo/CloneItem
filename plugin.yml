@@ -1,11 +1,11 @@
 name: cloneItem
 main: aieuo\cloneItem
-version: 0.1
+version: 1.0
 api: [3.0.0]
 load: POSTWORLD
 author: aieuo
 commands:
  cloneitem:
   description: "手に持っているアイテムを複製します"
-  usage: "usage /cloneitem"
+  usage: "/cloneitem [複製する数] [複製先のプレイヤー] [複製元のプレイヤー] "
   permission: op
